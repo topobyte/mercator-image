@@ -23,8 +23,8 @@ repositories {
 
 dependencies {
     compile 'de.topobyte:jgs:0.0.1'
-    compile 'de.topobyte:adt-geo:0.0.1'
-    compile 'de.topobyte:geomath:0.0.1'
+    compile 'de.topobyte:adt-geo:0.0.2'
+    compile 'de.topobyte:geomath:0.0.2'
 }
 
 task sourcesJar(type: Jar, dependsOn: classes) {
